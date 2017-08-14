@@ -5,7 +5,6 @@ var helpers = require('yeoman-test');
 
 describe('generator-d365:app', () => {
   beforeAll(() => {
-
     return helpers.run(path.join(__dirname, '../generators/app'))
       .withPrompts({
         projectType: 'Console 2016+ Project',

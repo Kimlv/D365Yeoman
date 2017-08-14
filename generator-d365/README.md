@@ -1,4 +1,5 @@
-# generator-d365 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-d365 
+
 > Templates for Dynamics CRM/365 C# development using Visual Studio or Visual Studio Code.
 
 ## Installation
@@ -45,13 +46,3 @@ You will also have the option to create a Visual Studio solution file.
 ## License
 
 MIT © [Jason Lattimer](https://jlattimer.blogspot.com/)
-
-
-[npm-image]: https://badge.fury.io/js/generator-d365.svg
-[npm-url]: https://npmjs.org/package/generator-d365
-[travis-image]: https://travis-ci.org/jlattimer/generator-d-65.svg?branch=master
-[travis-url]: https://travis-ci.org/jlattimer/generator-d365
-[daviddm-image]: https://david-dm.org/jlattimer/generator-d365.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/jlattimer/generator-d365
-[coveralls-image]: https://coveralls.io/repos/jlattimer/generator-d365/badge.svg
-[coveralls-url]: https://coveralls.io/r/jlattimer/generator-d365

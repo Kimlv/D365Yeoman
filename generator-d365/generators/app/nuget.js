@@ -96,8 +96,8 @@ module.exports = {
       '-v', this.getMatchingVersion(xrmToolingResults, main.props.sdkVersion)]);
   },
   installExConfigs: function (main, fullProjectPath) {
-    main.spawnCommandSync('dotnet', ['add', fullProjectPath, 'package', 'Microsoft.Extensions.Configuration']);
-    main.spawnCommandSync('dotnet', ['add', fullProjectPath, 'package', 'Microsoft.Extensions.Configuration.Json']);
+    main.spawnCommandSync('dotnet', ['add', fullProjectPath, 'package', 'Microsoft.Extensions.Configuration', '-v', '1.1.2']);
+    main.spawnCommandSync('dotnet', ['add', fullProjectPath, 'package', 'Microsoft.Extensions.Configuration.Json', '-v', '1.1.2']);
   },
   installExtenstions: function (main, fullProjectPath, extensionsResults) {
     main.spawnCommandSync('dotnet', ['add', fullProjectPath, 'package', 'Microsoft.CrmSdk.Extensions',

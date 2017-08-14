@@ -19,7 +19,7 @@ module.exports = {
     DDDDD..                      
     DDDDDDDD.         ` + chalk.blue.bgWhite(' Dynamics CRM/365     ') + `
     DDDDDDDDDDD.      ` + chalk.blue.bgWhite('   Template Generator ') + `
-    DDDDDDDDDDDDDD.              
+    DDDDDDDDDDDDDD.   ` + chalk.blue.bgWhite('     v1.0.2           ') + `           
     ..DDDDDDDDDDDDDDD.           
     DD...8DDDDDDDDDD...          
     DDDD7. .:DDDDD..,D.          
